@@ -1,10 +1,11 @@
-```
+
+<!---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/PisanA/checkstyle-webpage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-```
+--->
 
 # Checkstyle
 
@@ -40,7 +41,7 @@ Code should only have 1 statement per line for readability.
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
 There should be a space before and after '+', '-', '*', '/', '=', '<', '>', ... ';' should be followed by a space if there is anything after it
 
-```
+<!---
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -51,3 +52,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+--->
