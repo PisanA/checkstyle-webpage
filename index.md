@@ -41,6 +41,20 @@ Code should only have 1 statement per line for readability.
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
 There should be a space before and after '+', '-', '*', '/', '=', '<', '>', ... ';' should be followed by a space if there is anything after it
 
+## '(' is preceded with whitespace.
+Some '(' should not have whitespace(s) before it. For example, "Scanner scan = new Scanner (System.in);" violates the rules because there is a space before '('. The correct format is "Scanner scan = new Scanner(System.in);"
+
+## '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).
+If you have multiple if-else statements. The next one should be on the same line with the previous ending bracket '}' <br>
+The following is the correct format:
+if (condition) {  <br>
+&emsp;    statement; <br>
+} else if (condition2) {  <br>
+&emsp;    statement2; <br>
+} else { <br>
+&emsp;    statement3; <br>
+}
+
 <!---
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
