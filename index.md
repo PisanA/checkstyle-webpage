@@ -55,6 +55,11 @@ if (condition) {  <br>
 &emsp;    statement3; <br>
 }
 
+## Line contains a tab character.
+This mean your code line contains a tab character. <br>
+Using the tab key inserts an actual invisible tab character into your text, which can mess up the formatting later when your publisher tries to reformat your document for publication. <br>
+Different IDEs have different size of tab. Tab character is commonly 2 or 4 spaces in most IDEs. The differences can cause inconsistent code style while copying and pasting code. Therefore, programmers should use spaces instead of tab charater. 
+
 <!---
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
