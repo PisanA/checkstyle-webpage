@@ -46,12 +46,16 @@ Code should only have 1 statement per line for readability.
 <br><br>
 
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
-There should be a space before and after '+', '-', '*', '/', '=', '<', '>', ... ';' should be followed by a space if there is anything after it
+There should be a space before and after `+`, `-`, `*`, `/`, `=`, `<`, `>`, ... <br>
+`;` should be followed by a space if there is anything after it
 <br><br>
 
 ## '(' is preceded with whitespace.
-Some '(' should not have whitespace(s) before it. For example, "Scanner scan = new Scanner (System.in);" violates the rules because there is a space before '('. The correct format is "Scanner scan = new Scanner(System.in);"
+Some '(' should not have whitespace(s) before it. For example, `Scanner scan = new Scanner (System.in);` violates the rules because there is a space before '('. The correct format is `Scanner scan = new Scanner(System.in);`
 <br><br>
+
+## '(' is followed by whitespace.
+Similar with the above warning, some '(' should not have whitespace(s) after it. For example, `System.out.println( "Hello World");` violates the rules because there is a space after '('. The correct format is `System.out.println("Hello World");`
 
 ## '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).
 If you have multiple if-else statements. The next one should be on the same line with the previous ending bracket '}' <br>
