@@ -31,8 +31,8 @@ A normal computer screen cannot show more than 100 characters horizontally. The 
 ## '{' at column 5 should be on the previous line.
 '{' should not be in a new line. For example,  <br>
 ```
-if (condition) {  <br>
-&emsp;    statement; <br>
+if (condition) {  
+    statement; 
 } 
 ```
 <br><br>
@@ -57,12 +57,12 @@ Some '(' should not have whitespace(s) before it. For example, "Scanner scan = n
 If you have multiple if-else statements. The next one should be on the same line with the previous ending bracket '}' <br>
 The following is the correct format:
 ```
-if (condition) {  <br>
-&emsp;    statement; <br>
-} else if (condition2) {  <br>
-&emsp;    statement2; <br>
-} else { <br>
-&emsp;    statement3; <br>
+if (condition) {  
+    statement; 
+} else if (condition2) {  
+    statement2; 
+} else { 
+    statement3; 
 }
 ```
 <br><br>
