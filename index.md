@@ -23,9 +23,11 @@ The following is some comments you might find in the report:
 ## 'method def modifier' has incorrect indentation level 4, expected level should be 2.
 Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment. 
 <br><br>
+
 ## Line is longer than 100 characters (found 109).
 A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. 
 <br><br>
+
 ## '{' at column 5 should be on the previous line.
 '{' should not be in a new line. For example,  <br>
 if (condition) {  <br>
@@ -35,18 +37,23 @@ if (condition) {  <br>
 ## 'if' construct must use '{}'s.
 Even when you only have 1 statement in your constructor, you should uses '{}' 
 <br><br>
+
 ## Only one statement per line allowed.
 Code should only have 1 statement per line for readability.
 <br><br>
+
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
 There should be a space before and after '+', '-', '*', '/', '=', '<', '>', ... ';' should be followed by a space if there is anything after it
+<br><br>
 
 ## '(' is preceded with whitespace.
 Some '(' should not have whitespace(s) before it. For example, "Scanner scan = new Scanner (System.in);" violates the rules because there is a space before '('. The correct format is "Scanner scan = new Scanner(System.in);"
+<br><br>
 
 ## '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).
 If you have multiple if-else statements. The next one should be on the same line with the previous ending bracket '}' <br>
 The following is the correct format:
+```
 if (condition) {  <br>
 &emsp;    statement; <br>
 } else if (condition2) {  <br>
@@ -54,12 +61,28 @@ if (condition) {  <br>
 } else { <br>
 &emsp;    statement3; <br>
 }
+```
+<br><br>
 
 ## Line contains a tab character.
 This mean your code line contains a tab character. <br>
 Using the tab key inserts an actual invisible tab character into your text, which can mess up the formatting later when your publisher tries to reformat your document for publication. <br>
 Different IDEs have different size of tab. Tab character is commonly 2 or 4 spaces in most IDEs. The differences can cause inconsistent code style while copying and pasting code. Therefore, programmers should use spaces instead of tab charater. 
+<br><br>
 
+## Using the '.*' form of import should be avoided - java.util.*.
+The library is divided into packages and classes. Meaning you can either import a single class (along with its methods and attributes), or a whole package that contain all the classes that belong to the specified package. <br>
+You should import specific classes that are used in the program instead of import the whole package <br>
+If you use Scanner in your code, you should import `java.util.Scanner` instead of `java.util.*`
+<br><br>
+
+## Wrong lexicographical order for 'org.junit.Assert' import. Should be before 'org.junit.contrib.java.lang.system.TextFromStandardInputStream'.
+The import should  be in lexicographical order
+<br><br>
+
+## Extra separation in import group before 'java.io.*'
+There should be no separation (new lines) within the import section.
+<br><br>
 <!---
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
