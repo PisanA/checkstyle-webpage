@@ -30,10 +30,13 @@ A normal computer screen cannot show more than 100 characters horizontally. The 
 
 ## '{' at column 5 should be on the previous line.
 '{' should not be in a new line. For example,  <br>
+```
 if (condition) {  <br>
 &emsp;    statement; <br>
 } 
+```
 <br><br>
+
 ## 'if' construct must use '{}'s.
 Even when you only have 1 statement in your constructor, you should uses '{}' 
 <br><br>
