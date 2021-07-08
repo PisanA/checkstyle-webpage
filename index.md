@@ -77,7 +77,7 @@ Using the tab key inserts an actual invisible tab character into your text, whic
 Different IDEs have different size of tab. Tab character is commonly 2 or 4 spaces in most IDEs. The differences can cause inconsistent code style while copying and pasting code. Therefore, programmers should use spaces instead of tab charater. 
 <br><br>
 
-## Using the '.*' form of import should be avoided - java.util.* .
+## Using the '.*' form of import should be avoided - java.util. \* .
 The library is divided into packages and classes. Meaning you can either import a single class (along with its methods and attributes), or a whole package that contain all the classes that belong to the specified package. <br>
 You should import specific classes that are used in the program instead of import the whole package <br>
 If you use Scanner in your code, you should import `java.util.Scanner` instead of `java.util.*`
