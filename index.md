@@ -25,7 +25,11 @@ Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indenta
 <br><br>
 
 ## Line is longer than 100 characters (found 109).
-A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. 
+A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. For example, the code line  `System.out.println("This is a very long sentence that contains over 100 characters, and it should be broken into 2 lines!");` is very long, and it should be change to:
+```
+System.out.println("This is a very long sentence that contains"
+        + " over 100 characters, and it should be broken into 2 lines!");
+```
 <br><br>
 
 ## '{' at column 5 should be on the previous line.
