@@ -38,11 +38,21 @@ if (condition) {
 <br><br>
 
 ## 'if' construct must use '{}'s.
-Even when you only have 1 statement in your constructor, you should uses '{}' 
+Even when you only have 1 statement in your constructor, you should uses '{}'. For example: <br>
+```
+for (int i = 0; i < 10; i++) {  
+    System.out.println(i); 
+} 
+```
 <br><br>
 
 ## Only one statement per line allowed.
 Code should only have 1 statement per line for readability.
+`int num, fraction, value;` is fine, but `int num = 0; double fraction = 0.5;` is not, and it should change to be:
+```
+int num = 0; 
+double fraction = 0.5;
+```
 <br><br>
 
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
