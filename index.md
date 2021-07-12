@@ -83,8 +83,12 @@ You should import specific classes that are used in the program instead of impor
 If you use Scanner in your code, you should import `java.util.Scanner` instead of `java.util.*`
 <br><br>
 
-## Wrong lexicographical order for 'org.junit.Assert' import. Should be before 'org.junit.contrib.java.lang.system.TextFromStandardInputStream'.
-The import should  be in lexicographical order
+## Wrong lexicographical order for 'java.util.Array' import. Should be before 'java.util.Scanner'.
+The import should  be in lexicographical order (alphabetical order A-Z). For example, `io` shoud be before `util` and `Array` should be before `Scanner`. The following is an example of import section in correct lexicographical order. <br>
+import java.io.File;
+import java.util.Array;
+import java.util.ArrayList;
+import java.util.Scanner;
 <br><br>
 
 ## Extra separation in import group before 'java.io.*'
