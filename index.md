@@ -31,17 +31,13 @@ A normal computer screen cannot show more than 100 characters horizontally. The 
 <br><br>
 
 ## '{' at column 5 should be on the previous line.
-CheckStyle follows K&R style that `{` is in the same line with the control statement (if, while, for...). If you want to use Allman style, you can ignore this comman.<br>
+CheckStyle follows K&R style that `{` is in the same line with the control statement (if, while, for...). If you want to use Allman or other styles, you can ignore this warning.<br>
 ![image](https://user-images.githubusercontent.com/54456351/126027635-a1c8ce66-5517-4fb8-a413-aa0e9efe9407.png)
 <br><br>
 
 ## 'if' construct must use '{}'s.
 Even when you only have 1 statement in your constructor, you should uses '{}'. For example: <br>
-```
-for (int i = 0; i < 10; i++) {  
-    System.out.println(i); 
-} 
-```
+![image](https://user-images.githubusercontent.com/54456351/126027671-b4a56c2d-20da-416f-8bc9-2203f14614aa.png)
 <br><br>
 
 ## Only one statement per line allowed.
