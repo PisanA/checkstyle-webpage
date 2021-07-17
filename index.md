@@ -89,8 +89,12 @@ There should be no separation (new lines) within the import section.
 ![image](https://user-images.githubusercontent.com/54456351/126028962-7b03a77a-fad8-4f13-a9b4-39974b8b7806.png)
 <br><br>
 
-## Local variable name 'Num' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'
+## Local variable name 'Codingstyle' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'
+The first letter of variable name should be in lowercase, and each new word start with a uppercase letter. <br>
+![image](https://user-images.githubusercontent.com/54456351/126029123-0fe28fec-7d9e-4be6-b330-108c96081393.png)
 <br><br>
 
-## Abbreviation in name 'NUM' must contain no more than '2' consecutive capital letters.
+## Abbreviation in name 'SML' must contain no more than '2' consecutive capital letters.
+The variable name rule is the first letter should be in lowercase, and each new word start with a uppercase letter. Therefore, each uppercase letter will be counted as a word. 3 consecutive capital letters mean 3 words next to each other. The name is too short and and undescriptive. <br>
+![image](https://user-images.githubusercontent.com/54456351/126029355-ab461cb7-5c27-4c37-985f-da31d3d224bf.png)
 <br><br>
