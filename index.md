@@ -27,22 +27,22 @@ Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indenta
 
 ## Line is longer than 100 characters (found 109).
 A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. <br>
-![image](https://user-images.githubusercontent.com/54456351/126027390-0883f2ea-6ceb-4f45-99d6-dd4fb8255659.png)
+![image](https://user-images.githubusercontent.com/54456351/126028286-b6396342-31e5-40b2-9de9-567957605454.png)
 <br><br>
 
 ## '{' at column 5 should be on the previous line.
 CheckStyle follows K&R style that `{` is in the same line with the control statement (if, while, for...). If you want to use Allman or other styles, you can ignore this warning.<br>
-![image](https://user-images.githubusercontent.com/54456351/126027635-a1c8ce66-5517-4fb8-a413-aa0e9efe9407.png)
+![image](https://user-images.githubusercontent.com/54456351/126028275-0b9359a6-0368-4d82-a836-04fcf6ec563f.png)
 <br><br>
 
 ## 'if' construct must use '{}'s.
 Even when you only have 1 statement in your constructor, you should uses '{}'. For example: <br>
-![image](https://user-images.githubusercontent.com/54456351/126027671-b4a56c2d-20da-416f-8bc9-2203f14614aa.png)
+![image](https://user-images.githubusercontent.com/54456351/126028259-7383c189-d2ec-43c3-baff-e50c1f221fe1.png)
 <br><br>
 
 ## Only one statement per line allowed.
 Code should only have 1 statement per line for readability. <br>
-![image](https://user-images.githubusercontent.com/54456351/126027804-2a8066f4-e53e-4ecf-90b4-c30313911ce1.png)
+![image](https://user-images.githubusercontent.com/54456351/126028246-9a27aabf-7a2f-48ea-80c1-23a2cde3e735.png)
 <br><br>
 
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
@@ -57,7 +57,7 @@ There should be no spaces before the parentheses in a method call or a construct
 <br><br>
 
 ## '(' is followed by whitespace.
-Similar with the above warning, some '(' should not have whitespace(s) after it. For example, `System.out.println( "Hello World");` violates the rules because there is a space after '('. The correct format is `System.out.println("Hello World");`
+There should be no spaces after `(` and before `)`.  For example, `System.out.println( "Hello World");` violates the rules because there is a space after '('. The correct format is `System.out.println("Hello World");`
 
 ## '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).
 If you have multiple if-else statements. The next one should be on the same line with the previous ending bracket '}' <br>
