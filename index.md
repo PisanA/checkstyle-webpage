@@ -97,7 +97,7 @@ import java.util.Scanner;
 There should be no separation (new lines) within the import section.
 <br><br>
 
-## Local variable name 'Num' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'
+## Local variable name 'Num' must match pattern '^[a-z]\([a-z0-9]\[a-zA-Z0-9]\*)?$'
 <br><br>
 
 ## Abbreviation in name 'NUM' must contain no more than '2' consecutive capital letters.
