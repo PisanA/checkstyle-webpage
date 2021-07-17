@@ -98,3 +98,8 @@ The first letter of variable name should be in lowercase, and each new word star
 The variable name rule is the first letter should be in lowercase, and each new word start with a uppercase letter. Therefore, each uppercase letter will be counted as a word. 3 consecutive capital letters mean 3 words next to each other. The name is too short and and undescriptive. <br>
 ![image](https://user-images.githubusercontent.com/54456351/126029355-ab461cb7-5c27-4c37-985f-da31d3d224bf.png)
 <br><br>
+
+## Method name 'toString' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9_]*$'.
+The first letter of method name should be in lowercase, and each new word start with a uppercase letter. <br>
+![image](https://user-images.githubusercontent.com/54456351/126029492-b885881d-6341-46e2-981b-1fa5fb0a7c81.png)
+<br><br>
