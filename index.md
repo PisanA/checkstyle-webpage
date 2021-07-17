@@ -84,8 +84,9 @@ The import should  be in lexicographical order (alphabetical order A-Z). For exa
 ![image](https://user-images.githubusercontent.com/54456351/126028878-d46bcefa-38d7-48b9-a83a-1f69e6e25dd2.png)
 <br><br>
 
-## Extra separation in import group before 'java.io.*'
+## Extra separation in import group before 'java.util.Array'
 There should be no separation (new lines) within the import section.
+![image](https://user-images.githubusercontent.com/54456351/126028962-7b03a77a-fad8-4f13-a9b4-39974b8b7806.png)
 <br><br>
 
 ## Local variable name 'Num' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'
