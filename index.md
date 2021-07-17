@@ -46,8 +46,9 @@ Code should only have 1 statement per line for readability. <br>
 <br><br>
 
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
-There should be a space before and after `+`, `-`, `*`, `/`, `=`, `<`, `>`, ... <br>
-`;` should be followed by a space if there is anything after it
+There should be a space before and after all operators (`+`, `-`, `*`, `/`, `=`, `<`, `>`,  `&&`, `||`, `!=`, `>=`, `<=`, `==`). <br>
+`;` should be followed by a space if there is anything after it <br>
+![image](https://user-images.githubusercontent.com/54456351/126027907-7593c948-397f-4055-862c-7bedc7a58f06.png)
 <br><br>
 
 ## '(' is preceded with whitespace.
