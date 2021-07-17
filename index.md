@@ -31,12 +31,8 @@ A normal computer screen cannot show more than 100 characters horizontally. The 
 <br><br>
 
 ## '{' at column 5 should be on the previous line.
-'{' should not be in a new line. For example,  <br>
-```
-if (condition) {  
-    statement; 
-} 
-```
+CheckStyle follows K&R style that `{` is in the same line with the control statement (if, while, for...). If you want to use Allman style, you can ignore this comman.<br>
+![image](https://user-images.githubusercontent.com/54456351/126027635-a1c8ce66-5517-4fb8-a413-aa0e9efe9407.png)
 <br><br>
 
 ## 'if' construct must use '{}'s.
