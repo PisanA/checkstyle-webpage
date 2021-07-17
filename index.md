@@ -37,7 +37,7 @@ CheckStyle follows K&R style that `{` is in the same line with the control state
 
 ## 'if' construct must use '{}'s.
 Even when you only have 1 statement in your constructor, you should uses '{}'. For example: <br>
-![image](https://user-images.githubusercontent.com/54456351/126028259-7383c189-d2ec-43c3-baff-e50c1f221fe1.png)
+![image](https://user-images.githubusercontent.com/54456351/126028318-99d0c385-7a7c-410f-944c-beec18a816b2.png)
 <br><br>
 
 ## Only one statement per line allowed.
