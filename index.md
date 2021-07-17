@@ -53,7 +53,7 @@ There should be a space before and after all operators (`+`, `-`, `*`, `/`, `=`,
 
 ## '(' is preceded with whitespace.
 There should be no spaces before the parentheses in a method call or a constructor creation. <br>
-![image](https://user-images.githubusercontent.com/54456351/126028074-eec79efb-b8fb-4c0f-af2e-79e41fdd5b24.png)
+![image](https://user-images.githubusercontent.com/54456351/126028488-7bf86f74-ffb4-419f-b8dd-7ff7107c6004.png)
 <br><br>
 
 ## '(' is followed by whitespace.
