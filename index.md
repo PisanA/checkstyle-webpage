@@ -76,7 +76,7 @@ Different IDEs have different size of tab. Tab character is commonly 2 or 4 spac
 ## Using the '.*' form of import should be avoided - java.util. \* .
 The library is divided into packages and classes. Meaning you can either import a single class (along with its methods and attributes), or a whole package that contain all the classes that belong to the specified package. <br>
 You should import specific classes that are used in the program instead of import the whole package <br>
-If you use Scanner in your code, you should import `java.util.Scanner` instead of `java.util.*`
+![image](https://user-images.githubusercontent.com/54456351/126028774-d9834472-38af-4ef2-b176-c22a8f95b8dc.png)
 <br><br>
 
 ## Wrong lexicographical order for 'java.util.Array' import. Should be before 'java.util.Scanner'.
