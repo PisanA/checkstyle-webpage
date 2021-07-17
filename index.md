@@ -26,7 +26,7 @@ Checkstyle uses an indentation of 2 spaces, but most IDEs use 4 spaced indentati
 <br><br>
 
 ## Line is longer than 100 characters (found 109).
-A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. <br>
+A normal computer screen cannot show more than 100 characters horizontally, preferably under 80 character. The long line should be broken into shorter lines to ensure readability. <br>
 ![image](https://user-images.githubusercontent.com/54456351/126028286-b6396342-31e5-40b2-9de9-567957605454.png)
 <br><br>
 
