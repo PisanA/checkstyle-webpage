@@ -26,7 +26,7 @@ Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indenta
 <br><br>
 
 ## Line is longer than 100 characters (found 109).
-A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. 
+A normal computer screen cannot show more than 100 characters horizontally. The long line should be broken into shorter lines to ensure readability. <br>
 ![image](https://user-images.githubusercontent.com/54456351/126027390-0883f2ea-6ceb-4f45-99d6-dd4fb8255659.png)
 <br><br>
 
