@@ -52,7 +52,8 @@ There should be a space before and after all operators (`+`, `-`, `*`, `/`, `=`,
 <br><br>
 
 ## '(' is preceded with whitespace.
-Some '(' should not have whitespace(s) before it. For example, `Scanner scan = new Scanner (System.in);` violates the rules because there is a space before '('. The correct format is `Scanner scan = new Scanner(System.in);`
+There should be no spaces before the parentheses in a method call or a constructor creation. <br>
+![image](https://user-images.githubusercontent.com/54456351/126028074-eec79efb-b8fb-4c0f-af2e-79e41fdd5b24.png)
 <br><br>
 
 ## '(' is followed by whitespace.
