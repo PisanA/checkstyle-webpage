@@ -81,10 +81,7 @@ You should import specific classes that are used in the program instead of impor
 
 ## Wrong lexicographical order for 'java.util.Array' import. Should be before 'java.util.Scanner'.
 The import should  be in lexicographical order (alphabetical order A-Z). For example, `io` shoud be before `util` and `Array` should be before `Scanner`. The following is an example of import section in correct lexicographical order. <br>
-import java.io.File;
-import java.util.Array;
-import java.util.ArrayList;
-import java.util.Scanner;
+![image](https://user-images.githubusercontent.com/54456351/126028878-d46bcefa-38d7-48b9-a83a-1f69e6e25dd2.png)
 <br><br>
 
 ## Extra separation in import group before 'java.io.*'
