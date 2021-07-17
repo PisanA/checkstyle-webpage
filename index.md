@@ -22,7 +22,7 @@ You can access each code line violating the coding standard through "Findings(6)
 
 The following is some comments you might find in the report:
 ## 'method def modifier' has incorrect indentation level 4, expected level should be 2.
-Google style uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment. 
+Checkstyle uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment. 
 <br><br>
 
 ## Line is longer than 100 characters (found 109).
@@ -48,7 +48,7 @@ Code should only have 1 statement per line for readability. <br>
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
 There should be a space before and after all operators (`+`, `-`, `*`, `/`, `=`, `<`, `>`,  `&&`, `||`, `!=`, `>=`, `<=`, `==`). <br>
 `;` should be followed by a space if there is anything after it <br>
-![image](https://user-images.githubusercontent.com/54456351/126028462-40df821e-76c6-4c5f-9c4a-7169fc4825a3.png)
+![image](https://user-images.githubusercontent.com/54456351/126028552-f7155f96-9494-438a-95f2-64a76b2fe93c.png)
 <br><br>
 
 ## '(' is preceded with whitespace.
@@ -57,20 +57,14 @@ There should be no spaces before the parentheses in a method call or a construct
 <br><br>
 
 ## '(' is followed by whitespace.
-There should be no spaces after `(` and before `)`.  For example, `System.out.println( "Hello World");` violates the rules because there is a space after '('. The correct format is `System.out.println("Hello World");`
+There should be no spaces after `(` and before `)`.  <br>
+![image](https://user-images.githubusercontent.com/54456351/126028564-1a793175-a37e-4192-84c2-7d52a942b373.png)
+<br><br>
 
 ## '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).
-If you have multiple if-else statements. The next one should be on the same line with the previous ending bracket '}' <br>
-The following is the correct format:
-```
-if (condition) {  
-    statement; 
-} else if (condition2) {  
-    statement2; 
-} else { 
-    statement3; 
-}
-```
+CheckStyle follows K&R style that if you have multiple if-else statements, the next one should be on the same line with the previous ending bracket '}' 
+If you want to use Horstmann or other styles, you can ignore this warning.<br>
+![image](https://user-images.githubusercontent.com/54456351/126028730-2bc9e484-6702-4ac9-97dd-5bc7a20dc562.png)
 <br><br>
 
 ## Line contains a tab character.
@@ -97,7 +91,7 @@ import java.util.Scanner;
 There should be no separation (new lines) within the import section.
 <br><br>
 
-## Local variable name 'Num' must match pattern '^[a-z]\([a-z0-9]\[a-zA-Z0-9]\*)?$'
+## Local variable name 'Num' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'
 <br><br>
 
 ## Abbreviation in name 'NUM' must contain no more than '2' consecutive capital letters.
