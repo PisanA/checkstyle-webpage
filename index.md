@@ -103,3 +103,5 @@ The variable name rule is the first letter should be in lowercase, and each new 
 The first letter of method name should be in lowercase, and each new word start with a uppercase letter. <br>
 ![image](https://user-images.githubusercontent.com/54456351/126029492-b885881d-6341-46e2-981b-1fa5fb0a7c81.png)
 <br><br>
+
+<!-- link to checkstyle word files: https://docs.google.com/document/d/1L7H60XW0bg_6tAjo4Lsm5I8Qmf-xCnGnXz3iHFH2jV0/edit-->
