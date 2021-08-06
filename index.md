@@ -109,4 +109,10 @@ Brackets should be put right after the declaration type, not the name. <br>
 ![image](https://user-images.githubusercontent.com/54456351/128496385-c180c006-ef0b-467c-9333-ab97ab956840.png)
 <br><br>
 
+## Missing a Javadoc comment.
+There is a special format for Javadoc if you want to put comments above a method. <br>
+![image](https://user-images.githubusercontent.com/54456351/128497623-32d5bd4a-681d-4c2d-b339-9187facc98ac.png)
+<br><br>
+
+
 <!-- link to checkstyle word files: https://docs.google.com/document/d/1L7H60XW0bg_6tAjo4Lsm5I8Qmf-xCnGnXz3iHFH2jV0/edit-->
