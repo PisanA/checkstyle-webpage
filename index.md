@@ -21,13 +21,48 @@ You can access each code line violating the coding standard through "Findings(6)
 <br>
 
 The following is some comments you might find in the report:
+
+## Missing a Javadoc comment.
+There is a special format for Javadoc if you want to put comments above a method. <br>
+![image](https://user-images.githubusercontent.com/54456351/128497623-32d5bd4a-681d-4c2d-b339-9187facc98ac.png)
+<br><br>
+
+## Javadoc comment is placed in the wrong location.
+Class level Javadoc should be after the `import` section and before `class`. <br>
+Example of bad Javadoc:<br>
+![image](https://user-images.githubusercontent.com/54456351/128498412-12dc1cf7-b9d8-4fa3-ae53-708abd7adea4.png) <br><br>
+Example of good Javadoc:<br>
+![image](https://user-images.githubusercontent.com/54456351/128498495-5c85c6ae-bb48-4272-b2c0-63eb3e5ae096.png)
+<br><br>
+
 ## 'method def modifier' has incorrect indentation level 4, expected level should be 2.
 Checkstyle uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment. 
+<br><br>
+
+## Line contains a tab character.
+This mean your code line contains a tab character. <br>
+Using the tab key inserts an actual invisible tab character into your text, which can mess up the formatting later when your publisher tries to reformat your document for publication. <br>
+Different IDEs have different size of tab. Tab character is commonly 2 or 4 spaces in most IDEs. The differences can cause inconsistent code style while copying and pasting code. Therefore, programmers should use spaces instead of tab charater. 
 <br><br>
 
 ## Line is longer than 100 characters (found 109).
 A normal computer screen cannot show more than 100 characters horizontally, preferably under 80 character. The long line should be broken into shorter lines to ensure readability. <br>
 ![image](https://user-images.githubusercontent.com/54456351/126028286-b6396342-31e5-40b2-9de9-567957605454.png)
+<br><br>
+
+## Local variable name 'Codingstyle' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'
+The first letter of variable name should be in lowercase, and each new word start with a uppercase letter. <br>
+![image](https://user-images.githubusercontent.com/54456351/126029123-0fe28fec-7d9e-4be6-b330-108c96081393.png)
+<br><br>
+
+## Abbreviation in name 'SML' must contain no more than '2' consecutive capital letters.
+The variable name rule is the first letter should be in lowercase, and each new word start with a uppercase letter. Therefore, each uppercase letter will be counted as a word. 3 consecutive capital letters mean 3 words next to each other. The name is too short and and undescriptive. <br>
+![image](https://user-images.githubusercontent.com/54456351/126029355-ab461cb7-5c27-4c37-985f-da31d3d224bf.png)
+<br><br>
+
+## Method name 'ToString' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9_]*$'.
+The first letter of method name should be in lowercase, and each new word start with a uppercase letter. <br>
+![image](https://user-images.githubusercontent.com/54456351/126029492-b885881d-6341-46e2-981b-1fa5fb0a7c81.png)
 <br><br>
 
 ## '{' at column 5 should be on the previous line.
@@ -67,12 +102,6 @@ If you want to use Horstmann or other styles, you can ignore this warning.<br>
 ![image](https://user-images.githubusercontent.com/54456351/126028730-2bc9e484-6702-4ac9-97dd-5bc7a20dc562.png)
 <br><br>
 
-## Line contains a tab character.
-This mean your code line contains a tab character. <br>
-Using the tab key inserts an actual invisible tab character into your text, which can mess up the formatting later when your publisher tries to reformat your document for publication. <br>
-Different IDEs have different size of tab. Tab character is commonly 2 or 4 spaces in most IDEs. The differences can cause inconsistent code style while copying and pasting code. Therefore, programmers should use spaces instead of tab charater. 
-<br><br>
-
 ## Using the '.*' form of import should be avoided - java.util. \* .
 The library is divided into packages and classes. Meaning you can either import a single class (along with its methods and attributes), or a whole package that contain all the classes that belong to the specified package. <br>
 You should import specific classes that are used in the program instead of import the whole package <br>
@@ -89,36 +118,9 @@ There should be no separation (new lines) within the import section.
 ![image](https://user-images.githubusercontent.com/54456351/126028962-7b03a77a-fad8-4f13-a9b4-39974b8b7806.png)
 <br><br>
 
-## Local variable name 'Codingstyle' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'
-The first letter of variable name should be in lowercase, and each new word start with a uppercase letter. <br>
-![image](https://user-images.githubusercontent.com/54456351/126029123-0fe28fec-7d9e-4be6-b330-108c96081393.png)
-<br><br>
-
-## Abbreviation in name 'SML' must contain no more than '2' consecutive capital letters.
-The variable name rule is the first letter should be in lowercase, and each new word start with a uppercase letter. Therefore, each uppercase letter will be counted as a word. 3 consecutive capital letters mean 3 words next to each other. The name is too short and and undescriptive. <br>
-![image](https://user-images.githubusercontent.com/54456351/126029355-ab461cb7-5c27-4c37-985f-da31d3d224bf.png)
-<br><br>
-
-## Method name 'ToString' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9_]*$'.
-The first letter of method name should be in lowercase, and each new word start with a uppercase letter. <br>
-![image](https://user-images.githubusercontent.com/54456351/126029492-b885881d-6341-46e2-981b-1fa5fb0a7c81.png)
-<br><br>
-
 ## Array brackets at illegal position.
 Brackets should be put right after the declaration type, not the name. <br>
 ![image](https://user-images.githubusercontent.com/54456351/128496385-c180c006-ef0b-467c-9333-ab97ab956840.png)
 <br><br>
 
-## Missing a Javadoc comment.
-There is a special format for Javadoc if you want to put comments above a method. <br>
-![image](https://user-images.githubusercontent.com/54456351/128497623-32d5bd4a-681d-4c2d-b339-9187facc98ac.png)
-<br><br>
-
-## Javadoc comment is placed in the wrong location.
-Class level Javadoc should be after the `import` section and before `class`. <br>
-Example of bad Javadoc:<br>
-![image](https://user-images.githubusercontent.com/54456351/128498412-12dc1cf7-b9d8-4fa3-ae53-708abd7adea4.png) <br><br>
-Example of good Javadoc:<br>
-![image](https://user-images.githubusercontent.com/54456351/128498495-5c85c6ae-bb48-4272-b2c0-63eb3e5ae096.png)
-<br><br>
 <!-- link to checkstyle word files: https://docs.google.com/document/d/1L7H60XW0bg_6tAjo4Lsm5I8Qmf-xCnGnXz3iHFH2jV0/edit-->
