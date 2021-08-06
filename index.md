@@ -115,5 +115,10 @@ There is a special format for Javadoc if you want to put comments above a method
 <br><br>
 
 ## Javadoc comment is placed in the wrong location.
-
+Class level Javadoc should be after the `import` section and before `class`. <br>
+Example of bad Javadoc:<br>
+![image](https://user-images.githubusercontent.com/54456351/128498412-12dc1cf7-b9d8-4fa3-ae53-708abd7adea4.png) <br><br>
+Example of good Javadoc:<br>
+![image](https://user-images.githubusercontent.com/54456351/128498495-5c85c6ae-bb48-4272-b2c0-63eb3e5ae096.png)
+<br><br>
 <!-- link to checkstyle word files: https://docs.google.com/document/d/1L7H60XW0bg_6tAjo4Lsm5I8Qmf-xCnGnXz3iHFH2jV0/edit-->
