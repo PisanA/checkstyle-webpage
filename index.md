@@ -114,5 +114,6 @@ There is a special format for Javadoc if you want to put comments above a method
 ![image](https://user-images.githubusercontent.com/54456351/128497623-32d5bd4a-681d-4c2d-b339-9187facc98ac.png)
 <br><br>
 
+## Javadoc comment is placed in the wrong location.
 
 <!-- link to checkstyle word files: https://docs.google.com/document/d/1L7H60XW0bg_6tAjo4Lsm5I8Qmf-xCnGnXz3iHFH2jV0/edit-->
