@@ -65,9 +65,9 @@ The first letter of method name should be in lowercase, and each new word start 
 ![image](https://user-images.githubusercontent.com/54456351/126029492-b885881d-6341-46e2-981b-1fa5fb0a7c81.png)
 <br><br>
 
-## '{' at column 5 should be on the previous line.
-CheckStyle follows K&R style that `{` is in the same line with the control statement (if, while, for...). If you want to use Allman or other styles, you can ignore this warning.<br>
-![image](https://user-images.githubusercontent.com/54456351/126028275-0b9359a6-0368-4d82-a836-04fcf6ec563f.png)
+## Only one statement per line allowed.
+Code should only have 1 statement per line for readability. <br>
+![image](https://user-images.githubusercontent.com/54456351/126028246-9a27aabf-7a2f-48ea-80c1-23a2cde3e735.png)
 <br><br>
 
 ## 'if' construct must use '{}'s.
@@ -75,9 +75,9 @@ Even when you only have 1 statement in your constructor, you should uses '{}'. F
 ![image](https://user-images.githubusercontent.com/54456351/126028318-99d0c385-7a7c-410f-944c-beec18a816b2.png)
 <br><br>
 
-## Only one statement per line allowed.
-Code should only have 1 statement per line for readability. <br>
-![image](https://user-images.githubusercontent.com/54456351/126028246-9a27aabf-7a2f-48ea-80c1-23a2cde3e735.png)
+## '{' at column 5 should be on the previous line.
+CheckStyle follows K&R style that `{` is in the same line with the control statement (if, while, for...). If you want to use Allman or other styles, you can ignore this warning.<br>
+![image](https://user-images.githubusercontent.com/54456351/126028275-0b9359a6-0368-4d82-a836-04fcf6ec563f.png)
 <br><br>
 
 ## WhitespaceAround: '=' is not preceded with whitespace **and** WhitespaceAround: '=' is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3).
