@@ -120,7 +120,7 @@ There should be no separation (new lines) within the import section.
 
 ## Array brackets at illegal position.
 Brackets should be put right after the declaration type, not the name. <br>
-![image](https://user-images.githubusercontent.com/54456351/128496385-c180c006-ef0b-467c-9333-ab97ab956840.png)
+![image](https://user-images.githubusercontent.com/54456351/128547554-4419c779-9116-49c9-899b-825b06e47dbb.png)
 <br><br>
 
 <!-- link to checkstyle word files: https://docs.google.com/document/d/1L7H60XW0bg_6tAjo4Lsm5I8Qmf-xCnGnXz3iHFH2jV0/edit-->
