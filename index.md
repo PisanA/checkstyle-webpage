@@ -7,6 +7,8 @@ You can use the [editor on GitHub](https://github.com/PisanA/checkstyle-webpage/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 --->
 
+<div class="background-color: #caf0f8">
+
 # Checkstyle
 
 ![image](https://user-images.githubusercontent.com/54456351/119812559-1ec06400-be9d-11eb-907d-e1b71a97a447.png) <br>
@@ -125,5 +127,6 @@ Brackets should be put right after the declaration type, not the name. <br>
 
 #### For more information, view <a href="https://checkstyle.sourceforge.io/styleguides/google-java-style-20180523/javaguide.html">Google Java Style Guide</a> 
 
+  </div>
 
 <!-- link to checkstyle word files: https://docs.google.com/document/d/1L7H60XW0bg_6tAjo4Lsm5I8Qmf-xCnGnXz3iHFH2jV0/edit-->
