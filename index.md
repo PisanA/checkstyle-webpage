@@ -7,7 +7,7 @@ You can use the [editor on GitHub](https://github.com/PisanA/checkstyle-webpage/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 --->
 
-<div class="background-color: #caf0f8">
+<div style="background-color: #caf0f8">
 
 # Checkstyle
 
