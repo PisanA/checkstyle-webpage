@@ -124,6 +124,9 @@ Brackets should be put right after the declaration type, not the name. <br>
 ![image](https://user-images.githubusercontent.com/54456351/128547554-4419c779-9116-49c9-899b-825b06e47dbb.png)
 <br><br>
 
+## New Warnings
+If you don't see your warnings on the website, please fill this survey so that we can add them: <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1M4lW8zU0gfX2b0JHl3O0-vluhYhtCcvS2Ox0z3LDCwWEHg/viewform">New CheckStyle Warning</a> <br>
+
 #### For more information, view <a href="https://checkstyle.sourceforge.io/styleguides/google-java-style-20180523/javaguide.html">Google Java Style Guide</a> 
 
 
