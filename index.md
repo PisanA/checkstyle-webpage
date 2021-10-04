@@ -51,7 +51,7 @@ A normal computer screen cannot show more than 100 characters horizontally, pref
 ![image](https://user-images.githubusercontent.com/54456351/126028286-b6396342-31e5-40b2-9de9-567957605454.png)
 <br><br>
 
-## Local variable name 'Codingstyle' must match pattern '^[a-z]([a-z0-9][a-zA-Z0-9]*)?$'
+## Local variable name 'Codingstyle' must match pattern '^\[a-z]([a-z0-9]\[a-zA-Z0-9]\*)?$'
 The first letter of variable name should be in lowercase, and each new word start with a uppercase letter. <br>
 ![image](https://user-images.githubusercontent.com/54456351/126029123-0fe28fec-7d9e-4be6-b330-108c96081393.png)
 <br><br>
