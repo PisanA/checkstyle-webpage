@@ -42,8 +42,7 @@ Example of good Javadoc:<br>
 ## 'CLASS_DEF' should be separated from previous statement.
 ## 'METHOD_DEF' should be separated from previous line.
 There should be some space between classes and methods for readability. <br>
-![image](https://user-images.githubusercontent.com/54456351/136776497-b33c2f15-8698-487a-931b-77b899ae6d6e.png)
-
+![image](https://user-images.githubusercontent.com/54456351/136779164-392576ea-f147-4936-8dcd-1cac3a7dd015.png)
 
 ## 'method def modifier' has incorrect indentation level 4, expected level should be 2.
 Checkstyle uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment. 
