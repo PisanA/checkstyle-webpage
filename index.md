@@ -23,6 +23,9 @@ You can access each code line violating the coding standard through "Findings(6)
 
 The following is some comments you might find in the report:
 
+## The name of the outer type and the file do not match. (com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheck)
+This is a compilation error where filename is different from class name. Your class name must always be the same with the filename. If you class name is `Main`, then the filename must be `Main.java`.
+
 ## Missing a Javadoc comment.
 There is a special format for Javadoc if you want to put comments above a method. <br>
 ![image](https://user-images.githubusercontent.com/54456351/128497623-32d5bd4a-681d-4c2d-b339-9187facc98ac.png)
