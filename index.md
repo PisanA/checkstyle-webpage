@@ -16,7 +16,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Checkstyle is a tool for checking Java source code for adherence to the Google Java Style Guide.<br>
 Click "checkstyle" to view the report. The report should look like this:
 ![image](https://user-images.githubusercontent.com/54456351/120709943-5ec1b100-c472-11eb-93a1-1aafa7de830a.png) <br>
-<br /> <br /> <br />
+<br><br>
 You can access each code line violating the coding standard through "Findings(6)"
 ![image](https://user-images.githubusercontent.com/54456351/126027336-b869520f-6061-48b3-937d-2ceb9c95baf9.png)
 <br>
@@ -43,6 +43,7 @@ Example of good Javadoc:<br>
 ## 'METHOD_DEF' should be separated from previous line.
 There should be some space between classes and methods for readability. <br>
 ![image](https://user-images.githubusercontent.com/54456351/136779164-392576ea-f147-4936-8dcd-1cac3a7dd015.png)
+<br><br>
 
 ## 'method def modifier' has incorrect indentation level 4, expected level should be 2.
 Checkstyle uses an indentation of 2 spaces, but most IDEs use 4 spaced indentation. Therefore, if you want to use 4 spaced indentation, you can ignore this comment. 
@@ -136,6 +137,7 @@ Brackets should be put right after the declaration type, not the name. <br>
 `size` and `5` can be different based on developer's code. 
 When a variable is initilized, you should use it within the next 3 code lines. It helps to group related codes together and make them easier to read. <br> 
 ![image](https://user-images.githubusercontent.com/54456351/136779105-c1bb1a3c-7b00-4f9a-93b3-a46a0f3f81ff.png)
+<br><br>
 
 ## New Warnings
 If you don't see your warnings on the website, please fill this survey so that we can add them: <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1M4lW8zU0gfX2b0JHl3O0-vluhYhtCcvS2Ox0z3LDCwWEHg/viewform">New CheckStyle Warning</a> <br>
