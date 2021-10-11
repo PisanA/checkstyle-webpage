@@ -136,8 +136,7 @@ Brackets should be put right after the declaration type, not the name. <br>
 ## Distance between variable 'size' declaration and its first usage is 5, but allowed 3. Consider making that variable final if you still need to store its value in advance (before method calls that might have side effects on the original value).
 `size` and `5` can be different based on developer's code. 
 When a variable is initilized, you should use it within the next 3 code lines. It helps to group related codes together and make them easier to read. <br> 
-![image](https://user-images.githubusercontent.com/54456351/136778944-2370fe97-da77-49a6-9bcb-8194a41121dc.png)
-
+![image](https://user-images.githubusercontent.com/54456351/136779105-c1bb1a3c-7b00-4f9a-93b3-a46a0f3f81ff.png)
 
 ## New Warnings
 If you don't see your warnings on the website, please fill this survey so that we can add them: <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1M4lW8zU0gfX2b0JHl3O0-vluhYhtCcvS2Ox0z3LDCwWEHg/viewform">New CheckStyle Warning</a> <br>
