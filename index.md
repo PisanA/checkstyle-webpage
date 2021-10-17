@@ -39,6 +39,12 @@ Example of good Javadoc:<br>
 ![image](https://user-images.githubusercontent.com/54456351/128498495-5c85c6ae-bb48-4272-b2c0-63eb3e5ae096.png)
 <br><br>
 
+## Forbidden summary fragment.
+It means CheckStyle detects "the method returns" in the Javadoc. The return information should be in a @return tag. 
+The @return tag is required for every method that returns something other than void, even if it is redundant with the method description.
+![image](https://user-images.githubusercontent.com/54456351/137619687-d8602cbe-f6e1-4b6a-bd67-948a00a5df2d.png)
+<br><br>
+
 ## 'CLASS_DEF' should be separated from previous statement.
 ## 'METHOD_DEF' should be separated from previous line.
 There should be some space between classes and methods for readability. <br>
